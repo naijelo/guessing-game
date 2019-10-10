@@ -8,7 +8,7 @@ class GuessingGame {
 
     guess() {
 //округлить
-        this.mid = Math.ceil((this.right + this.left) / 2);
+        return this.mid = Math.ceil((this.right + this.left) / 2);
     }
 
     lower() {
